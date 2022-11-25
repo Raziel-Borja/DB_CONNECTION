@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../IMAGENES/fondoo.jpg) no-repeat center top;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.singin {
+    width: 320px;
+    height: 520px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+}
+
+.singin .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.singin h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.singin label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.singin input {
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.singin input[type="text"],
+.singin input[type="email"],
+.singin input[type="tel"],
+.singin input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.singin input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(25, 10, 80);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+
+
+.singin input[type="submit"]:hover {
+    color: #000;
+    background: aqua;
+    cursor: pointer;
+}

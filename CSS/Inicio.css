@@ -1,0 +1,188 @@
+*{
+    font-family: 'poppins', sans-serif;
+    text-transform:capitalize;
+    text-decoration: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background: cornflowerblue;
+    color: #fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #48484e;
+}
+
+.heading{
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 1rem 0 0;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+
+.title{
+    padding: 0 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    background-color: #171717;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1 rem 2rem;
+    z-index: 1000;
+    transition: .2s;
+}
+
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header .navbar ul li {
+    margin: 2rem 1rem;
+
+}
+
+header .navbar ul li a {
+    font-size: 2rem;
+    color: #fff;
+    transition: .2s;
+}
+
+header .navbar ul li .activate,
+header .navbar ul li a:hover{
+    color: #84c1ff;
+}
+
+header .logo {
+    font-size: 2.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 10rem;
+   
+}
+
+ 
+.home{
+    min-height: 100vh;
+    background: linear-gradient(rgba(225,184,0,0.2), rgba(236,134,0,0.8)), url(../IMAGENES/herramientas2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.home .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-top: 25rem;
+    text-align: center;
+}
+
+.home .content h1 {
+    font-size: 6rem;
+    color: #fff;
+    padding: 0 1rem;
+    text-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+    text-transform: uppercase;
+}
+
+.home .content h3 {
+    font-size: 3rem;
+    color: #fff;
+    padding: 4rem 25rem;
+    text-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+    text-transform: uppercase; 
+}
+
+.home .content p {
+    font-size: 1.5rem;
+    color: rgb(11, 11, 11);
+    padding: 2rem 25rem;
+}
+
+.home .content button {
+    height: 5rem;
+    width: 20rem;
+    border-radius: 1rem;
+    background: #48484e;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: 0 .3rem 1rem ;
+    margin-top: .5rem;
+    border-color: #48484e;
+}
+
+.home .content button:hover {
+    background: none;
+    border: .2rem solid #484843;
+}
+
+.about {
+  
+    background: linear-gradient(#145ca4, #050505)
+}
+
+.about .title {
+    margin-bottom: 3rem;
+}
+
+.about .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about .row .image img{
+    height: 40vh;
+    width: 30vw;
+    margin-left: 10px;
+}
+
+.about .row .content {
+    padding-left: 5rem;
+    margin: 5rem 0;
+}
+
+.about h3 {
+    font-size:  1.8rem;
+    color: #fff;
+    padding: 2rem 40rem;
+    align-items: center;
+    text-align: center;
+}
+
+header img{
+    margin-left: 10rem;
+    width: 6rem; 
+    height: 6rem;
+}
+
+
