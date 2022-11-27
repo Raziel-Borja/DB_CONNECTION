@@ -1,4 +1,5 @@
 <?php
+//CONECTION WITH MYSQL DATABASE "FAST_FIX"
 $server = 'localhost';
 $user = 'root';
 $password = '';
